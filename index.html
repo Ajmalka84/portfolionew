@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio : Ajmal K A</title>
+  </head>
+  <body class="font-nunito dark">
+    <!-- Intro section -->
+    <div
+      id="home"
+      class="h-96 lg:h-screen bg-gradient-to-t from-indigo-200 relative dark:from-slate-800 dark:to-slate-800"
+    >
+      <!-- navbar -->
+      <nav
+        class="w-full fixed top-0 bg-white z-50 dark:bg-slate-900 dark:text-white"
+      >
+        <div class="container mx-auto py-5 flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <img class="w-8 h-8" src="./img/logo.png" alt="" />
+            <span class="font-bold">Portfolio</span>
+          </div>
+          <ul class="hidden md:flex space-x-8 uppercase">
+            <li
+              class="font-semibold cursor-pointer hover:text-indigo-600 text-sm"
+            >
+              <a href="#home">Home</a>
+            </li>
+            <li
+              class="font-semibold cursor-pointer hover:text-indigo-600 text-sm"
+            >
+              <a href="#aboutme">About me</a>
+            </li>
+
+            <li
+              class="font-semibold cursor-pointer hover:text-indigo-600 text-sm"
+            >
+              <a href="#works">Works</a>
+            </li>
+            <li
+              class="font-semibold cursor-pointer hover:text-indigo-600 text-sm"
+            >
+              <a href="#contacts">Contacts</a>
+            </li>
+          </ul>
+          <img
+            id="moon"
+            src="./img/moon.png"
+            class="hidden md:block w-8 cursor-pointer"
+            alt=""
+          />
+          <div id="hamburger" class="md:hidden space-y-0.5 z-10">
+            <div class="w-5 h-0.5 bg-black"></div>
+            <div class="w-5 h-0.5 bg-black"></div>
+            <div class="w-5 h-0.5 bg-black"></div>
+          </div>
+          <ul
+            id="menu"
+            class="hidden bg-indigo-900 text-white text-center uppercase text-sm absolute left-0 top-0 w-full p-8 space-y-3 rounded-b-2xl z-2"
+          >
+            <li id="hlink">
+              <a class="cursor-pointer hover:text-yellow-500" href="#home"
+                >Home</a
+              >
+            </li>
+            <li id="hlink">
+              <a class="cursor-pointer hover:text-yellow-500" href="#aboutme"
+                >About me</a
+              >
+            </li>
+
+            <li id="hlink">
+              <a class="cursor-pointer hover:text-yellow-500" href="#works"
+                >Works</a
+              >
+            </li>
+            <li id="hlink">
+              <a class="cursor-pointer hover:text-yellow-500" href="#contacts"
+                >Contacts</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <img
+        class="absolute bottom-0 right-0 object-cover sm:h-5/6"
+        src="./img/man.png"
+        alt=""
+      />
+      <div
+        class="absolute top-40 left-4 text-2xl font-bold sm:text-3xl sm:left-12 sm:top-36 md:left-40 md:text-5xl md:top-1/3 lg:text-7xl xl:left-1/4"
+      >
+        <span class="text-gray-600">MERN Stack</span>
+        <p id="text" class="text-red-700"></p>
+      </div>
+    </div>
+    <!-- about section  -->
+    <div id="aboutme" class="px-10 dark:bg-slate-900">
+      <div
+        class="container mx-auto py-20 flex gap-20 flex-col-reverse md:flex-row items-center"
+      >
+        <img
+          class="rounded-full h-full w-2/3 md:w-1/3"
+          src="./img/portfoliopic.jpg"
+          alt=""
+        />
+        <div class="my-auto space-y-3">
+          <h1 class="text-2xl text-indigo-600 font-bold">ABOUT ME</h1>
+          <h3 class="text-xl font-semibold dark:text-white">Better Design</h3>
+          <h3 class="text-xl font-semibold dark:text-white">
+            Better Experience
+          </h3>
+          <p class="text-gray-600 text-sm">
+            Highly motivated and self-taught MERN stack developer with a strong
+            ability to learn and adapt quickly. Skilled in React, Node.js,
+            Express.js, and MongoDB, with handson experience in building web
+            applications. Thrives in collaborative and agile environments,
+            delivering high-quality software solutions. Excels at
+            troubleshooting complex technical issues and ensuring responsive
+            design for seamless user experiences. Well-versed in version control
+            using Git and successfully integrating third-party APIs. Eager to
+            continue expanding skills and stay updated with industry trends.
+          </p>
+          <div class="text-sm font-bold space-y-4">
+            <div>
+              <h6 class="dark:text-white">Javascript</h6>
+              <div class="w-full h-1.5 bg-gray-300 rounded">
+                <div class="w-4/5 h-1.5 bg-indigo-900 rounded"></div>
+              </div>
+            </div>
+            <div>
+              <h6 class="dark:text-white">React.js</h6>
+              <div class="w-full h-1.5 bg-gray-300 rounded">
+                <div class="w-3/4 h-1.5 bg-indigo-900 rounded"></div>
+              </div>
+            </div>
+            <div>
+              <h6 class="dark:text-white">Node.js</h6>
+              <div class="w-full h-1.5 bg-gray-300 rounded">
+                <div class="w-5/6 h-1.5 bg-indigo-900 rounded"></div>
+              </div>
+            </div>
+            <div>
+              <h6 class="dark:text-white">MongoDB</h6>
+              <div class="w-full h-1.5 bg-gray-300 rounded">
+                <div class="w-4/5 h-1.5 bg-indigo-900 rounded"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- portfolio  -->
+    <div id="works" class="dark:bg-slate-800">
+      <div class="container mx-auto space-y-8 py-10">
+        <div class="text-center space-y-2">
+          <h1 class="font-bold text-2xl text-indigo-600">PORTFOLIO</h1>
+          <h3 class="font-semibold dark:text-white">Works and Projects</h3>
+          <!-- <p class="text-sm text-gray-500">Highly motivated and self-taught MERN stack developer with a strong ability to learn and adapt quickly.</p> -->
+        </div>
+        <div class="p-5 sm:p-0 flex flex-wrap">
+          <div
+            class="w-full md:w-1/3 space-y-2 p-8 shadow-xl rounded-lg my-2 md:my-0"
+          >
+            <img class="w-12" src="./img/icon.png" alt="" />
+            <h5 class="text-lg font-bold dark:text-white">SocialHub</h5>
+            <p class="text-xs text-gray-500">
+              SocialHub is a platform that enables users to create and share
+              content, connect with other users, and interact with each other.
+            </p>
+            <a
+              class="text-indigo-700 text-sm font-bold"
+              href="https://main.d3vbu76p2zy0td.amplifyapp.com/login"
+              >View</a
+            >
+          </div>
+          <div
+            class="w-full md:w-1/3 space-y-2 p-8 shadow-xl rounded-lg my-2 md:my-0"
+          >
+            <img class="w-12" src="./img/icon.png" alt="" />
+            <h5 class="text-lg font-bold dark:text-white">MobiKart</h5>
+            <p class="text-xs text-gray-500">
+              MobiKart is a feature-rich e-commerce application providing a
+              comprehensive set of functionalities to create a seamless online
+              shopping experience for users.
+            </p>
+            <a
+              class="text-indigo-700 text-sm font-bold"
+              href="https://mobikart.tk/"
+              >View</a
+            >
+          </div>
+          <div
+            class="w-full md:w-1/3 space-y-2 p-8 shadow-xl rounded-lg my-2 md:my-0"
+          >
+            <img class="w-12" src="./img/icon.png" alt="" />
+            <h5 class="text-lg font-bold dark:text-white">Paypal UI</h5>
+            <p class="text-xs text-gray-500">
+              This project is a clone of the PayPal website. It replicates the
+              layout and design of the PayPal homepage using HTML and CSS.
+            </p>
+            <a
+              class="text-indigo-700 text-sm font-bold"
+              href="https://main.d1phn4bc1co900.amplifyapp.com/"
+              >View</a
+            >
+          </div>
+          <div
+            class="w-full md:w-1/3 space-y-2 p-8 shadow-xl rounded-lg my-2 md:my-0"
+          >
+            <img class="w-12" src="./img/icon.png" alt="" />
+            <h5 class="text-lg font-bold dark:text-white">Starbucks UI</h5>
+            <p class="text-xs text-gray-500">
+              This project is a clone of the Starbucks website. It replicates
+              the layout and design of the PayPal homepage using HTML, CSS and
+              Bootstrap.
+            </p>
+            <a
+              class="text-indigo-700 text-sm font-bold"
+              href="https://main.d1qw5wd9r1hd51.amplifyapp.com/"
+              >View</a
+            >
+          </div>
+          <div
+            class="w-full md:w-1/3 space-y-2 p-8 shadow-xl rounded-lg my-2 md:my-0"
+          >
+            <img class="w-12" src="./img/icon.png" alt="" />
+            <h5 class="text-lg font-bold dark:text-white">Netflix UI</h5>
+            <p class="text-xs text-gray-500">
+              This App is Built with react.js and TMDB api. Users can view
+              Videos from the netflix.
+            </p>
+            <a
+              class="text-indigo-700 text-sm font-bold"
+              href="https://main.d1h7ayouqtp3ls.amplifyapp.com/"
+              >View</a
+            >
+          </div>
+          <div
+            class="w-full md:w-1/3 space-y-2 p-8 shadow-xl rounded-lg my-2 md:my-0"
+          >
+            <img class="w-12" src="./img/icon.png" alt="" />
+            <h5 class="text-lg font-bold dark:text-white">Packapeer</h5>
+            <p class="text-xs text-gray-500">
+              This project is a clone of the Starbucks website. It replicates
+              the layout and design of the PayPal homepage using HTML, CSS and
+              Bootstrap.
+            </p>
+            <a
+              class="text-indigo-700 text-sm font-bold"
+              href="https://main.dbf17yzrncf3f.amplifyapp.com/"
+              >View</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- contact  -->
+    <div id="contacts" class="dark:bg-slate-900">
+      <div class="container mx-auto py-10 flex flex-col items-center">
+        <div class="text-center space-y-2">
+          <h1 class="font-bold text-2xl text-indigo-600">CONTACT</h1>
+          <h3 class="font-semibold dark:text-white">Have a Question?</h3>
+          <!-- <p class="text-sm text-gray-500">Highly motivated and self-taught MERN stack developer with a strong ability to learn and adapt quickly.</p> -->
+        </div>
+        <form id="contactform" class="flex flex-col w-4/6 md:w-3/6 p-8 space-y-8 rounded-lg items-center">
+          <input class="w-full bg-gray-100 h-10 p-3 text-gray-700" type="text" name="name" placeholder="Name" required />
+          <input class="w-full bg-gray-100 h-10 p-3" type="email" placeholder="Email" name="email" required />
+          <textarea class="w-full bg-gray-100 p-3" cols="30" rows="3" placeholder="Message..." name="message"></textarea>
+          <button class="w-1/3 h-10 bg-indigo-600 text-white text-sm rounded-lg hover:bg-indigo-800" type="submit" id="formsubmit">Submit</button>
+        </form>
+        <p id="successmsg" class="hidden text-green-700">Message sent successfully</p>
+      </div>
+    </div>
+    <!-- footer  -->
+    <div class="w-full top-0 bg-gray-700 text-white text-sm">
+      <div class="container mx-auto py-5 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <img class="w-8 h-8" src="./img/logo.png" alt="" />
+          <span class="font-bold">Portfolio</span>
+        </div>
+        <p>creation @ ajmalka84</p>
+        <div class="flex items-center gap-2">
+          <a href="https://www.facebook.com/ajmal.ka.14268/"
+            ><img class="w-5" src="./img/facebook.png" alt=""
+          /></a>
+          <a href="https://www.linkedin.com/in/ajmalka84/"
+            ><img class="w-5" src="./img/linkedin.png" alt=""
+          /></a>
+          <a href="https://github.com/Ajmalka84"
+            ><img class="w-5 rounded-lg" src="./img/git.png" alt=""
+          /></a>
+          <a href="https://www.instagram.com/ajmalka84/"
+            ><img class="w-5" src="./img/instagram.png" alt=""
+          /></a>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+    <script src="./autotyping.js"></script>
+    <script>
+      // Function to handle form submission
+      function handleSubmit(event) {
+        event.preventDefault(); // Prevent the default form submission
+    
+        // Get form data
+        const form = event.target;
+        const formData = new FormData(form);
+    
+        // Prepare the request URL with your Formspree endpoint
+        const url = 'https://formspree.io/f/xknlnkyd';
+    
+        // Prepare the request headers
+        const headers = {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        };
+    
+        // Prepare the request body
+        const body = {};
+        formData.forEach((value, key) => {
+          body[key] = value;
+        });
+    
+        // Send a POST request to Formspree API endpoint
+        fetch(url, {
+            method: 'POST',
+            headers: headers,
+            body: JSON.stringify(body)
+          })
+          .then(response => {
+            // Handle the response if needed
+            if (response.ok) {
+              console.log(response);
+              document.querySelector("#successmsg").classList.remove("hidden");
+              setTimeout(() => {
+                document.querySelector("#successmsg").classList.add("hidden");
+                form.reset(); // Reset the form inputs
+              }, 3000); // Display the message for 3 seconds (3000 milliseconds)
+            } else {
+              throw new Error('Form submission failed');
+            }
+          })
+          .catch(error => {
+            // Handle the error if needed
+            console.error(error);
+            alert('Form submission failed!');
+          });
+      }
+    
+      // Add event listener to the form for the submit event
+      const contactForm = document.getElementById('contactform');
+      contactForm.addEventListener('submit', handleSubmit);
+    </script>
+  </body>
+</html>
